@@ -540,60 +540,6 @@ paja@paja-trb.cz
 <hole x="12.446" y="1.27" drill="3.2004"/>
 <hole x="-12.446" y="1.27" drill="3.2004"/>
 </package>
-<package name="PSH02-04W">
-<wire x1="-5.08" y1="5.08" x2="-3.81" y2="5.08" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="5.08" x2="-5.08" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="1.905" x2="-4.445" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-3.175" y1="1.905" x2="-1.905" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="5.08" x2="-3.81" y2="13.0175" width="0.127" layer="21"/>
-<wire x1="-4.445" y1="1.905" x2="-4.445" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-4.445" y1="2.54" x2="-3.175" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-3.175" y1="2.54" x2="-3.175" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-1.905" y1="1.905" x2="-1.905" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-1.905" y1="2.54" x2="-0.635" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="2.54" x2="-0.635" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="5.3975" x2="-3.81" y2="12.7" width="0.6096" layer="51"/>
-<wire x1="-1.27" y1="12.7" x2="-1.27" y2="5.3975" width="0.6096" layer="51"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="2.2225" width="0.6096" layer="51"/>
-<wire x1="-3.81" y1="2.2225" x2="-3.81" y2="0" width="0.6096" layer="51"/>
-<wire x1="-3.81" y1="5.08" x2="3.81" y2="5.08" width="0.127" layer="21"/>
-<wire x1="3.81" y1="5.08" x2="5.08" y2="5.08" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="1.905" x2="0.635" y2="1.905" width="0.127" layer="21"/>
-<wire x1="1.905" y1="1.905" x2="3.175" y2="1.905" width="0.127" layer="21"/>
-<wire x1="4.445" y1="1.905" x2="5.08" y2="1.905" width="0.127" layer="21"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="13.0175" x2="3.81" y2="13.0175" width="0.127" layer="21"/>
-<wire x1="3.81" y1="13.0175" x2="3.81" y2="5.08" width="0.127" layer="21"/>
-<wire x1="0.635" y1="1.905" x2="0.635" y2="2.54" width="0.127" layer="21"/>
-<wire x1="0.635" y1="2.54" x2="1.905" y2="2.54" width="0.127" layer="21"/>
-<wire x1="1.905" y1="2.54" x2="1.905" y2="1.905" width="0.127" layer="21"/>
-<wire x1="3.175" y1="1.905" x2="3.175" y2="2.54" width="0.127" layer="21"/>
-<wire x1="3.175" y1="2.54" x2="4.445" y2="2.54" width="0.127" layer="21"/>
-<wire x1="4.445" y1="2.54" x2="4.445" y2="1.905" width="0.127" layer="21"/>
-<wire x1="1.27" y1="5.3975" x2="1.27" y2="12.7" width="0.6096" layer="51"/>
-<wire x1="3.81" y1="12.7" x2="3.81" y2="5.3975" width="0.6096" layer="51"/>
-<wire x1="3.81" y1="0" x2="3.81" y2="2.2225" width="0.6096" layer="51"/>
-<wire x1="1.27" y1="2.2225" x2="1.27" y2="0" width="0.6096" layer="51"/>
-<circle x="-3.81" y="0" radius="0.5724" width="0.127" layer="102"/>
-<circle x="-1.27" y="0" radius="0.5723" width="0.127" layer="102"/>
-<circle x="1.27" y="0" radius="0.5724" width="0.127" layer="102"/>
-<circle x="3.81" y="0" radius="0.5723" width="0.127" layer="102"/>
-<pad name="1" x="-3.81" y="0" drill="1.016" diameter="1.4224" shape="long" rot="R90"/>
-<pad name="2" x="-1.27" y="0" drill="1.016" diameter="1.4224" shape="long" rot="R90"/>
-<pad name="3" x="1.27" y="0" drill="1.016" diameter="1.4224" shape="long" rot="R90"/>
-<pad name="4" x="3.81" y="0" drill="1.016" diameter="1.4224" shape="long" rot="R90"/>
-<text x="-3.0163" y="2.0638" size="0.254" layer="100">PaJa</text>
-<text x="-4.445" y="3.175" size="1.4224" layer="25">&gt;Name</text>
-<text x="-1.905" y="5.3975" size="1.4224" layer="27" rot="R90">&gt;Value</text>
-<rectangle x1="-1.5875" y1="0" x2="-0.9525" y2="2.54" layer="51"/>
-<rectangle x1="-4.1275" y1="0" x2="-3.4925" y2="2.54" layer="51"/>
-<rectangle x1="-4.1275" y1="5.08" x2="-3.4925" y2="12.7" layer="51"/>
-<rectangle x1="-1.5875" y1="5.08" x2="-0.9525" y2="12.7" layer="51"/>
-<rectangle x1="3.4925" y1="0" x2="4.1275" y2="2.54" layer="51"/>
-<rectangle x1="0.9525" y1="0" x2="1.5875" y2="2.54" layer="51"/>
-<rectangle x1="0.9525" y1="5.08" x2="1.5875" y2="12.7" layer="51"/>
-<rectangle x1="3.4925" y1="5.08" x2="4.1275" y2="12.7" layer="51"/>
-</package>
 <package name="PSH02-06P">
 <wire x1="-7.62" y1="2.54" x2="-6.35" y2="2.54" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="2.54" x2="-7.62" y2="-3.175" width="0.127" layer="21"/>
@@ -924,8 +870,6 @@ Určeno pro kreslení a export výrobních dat</description>
 <element name="IO2" library="#PaJa_31" package="DPAK" value="LF50CDT" x="46.3" y="12.8" rot="MR180"/>
 <element name="C5" library="#PaJa_31" package="1206" value="10uF" x="48.6" y="14.6" rot="R90"/>
 <element name="C6" library="#PaJa_31" package="1206" value="100n" x="44" y="14.6" rot="R90"/>
-<element name="K1" library="#PaJa_konektory" package="PSH02-04W" value="" x="-12.5" y="12.7" rot="R90"/>
-<element name="K2" library="#PaJa_konektory" package="PSH02-04W" value="" x="72.9" y="53.2" rot="R270"/>
 <element name="U$1" library="#PaJa_konektory" package="PSH02-06P" value="AVR_PROG_SPI" x="38.8" y="12.9" rot="R90"/>
 <element name="Q2" library="transistor-power" package="SOT223" value="N-HEXFET_SOT323-IRLL014N" x="14.6" y="5.1" rot="MR180"/>
 <element name="R4" library="#PaJa_31" package="1206" value="10k" x="9.5" y="6.6" rot="MR90"/>

@@ -1901,86 +1901,6 @@ paja@paja-trb.cz
 <hole x="12.446" y="1.27" drill="3.2004"/>
 <hole x="-12.446" y="1.27" drill="3.2004"/>
 </package>
-<package name="PSH02-04P">
-<wire x1="-5.08" y1="2.54" x2="-3.81" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-3.175" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="2.54" x2="-3.81" y2="1.5875" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="2.54" x2="3.81" y2="2.54" width="0.127" layer="21"/>
-<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-3.175" x2="5.08" y2="-3.175" width="0.127" layer="21"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-3.175" width="0.127" layer="21"/>
-<wire x1="3.81" y1="1.5875" x2="3.81" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="1.5875" x2="3.81" y2="1.5875" width="0.127" layer="21"/>
-<circle x="-3.81" y="0" radius="0.5724" width="0.127" layer="102"/>
-<circle x="-1.27" y="0" radius="0.5723" width="0.127" layer="102"/>
-<circle x="1.27" y="0" radius="0.5724" width="0.127" layer="102"/>
-<circle x="3.81" y="0" radius="0.5723" width="0.127" layer="102"/>
-<pad name="1" x="-3.81" y="0" drill="1.016" diameter="1.4224" shape="long" rot="R90"/>
-<pad name="2" x="-1.27" y="0" drill="1.016" diameter="1.4224" shape="long" rot="R90"/>
-<pad name="3" x="1.27" y="0" drill="1.016" diameter="1.4224" shape="long" rot="R90"/>
-<pad name="4" x="3.81" y="0" drill="1.016" diameter="1.4224" shape="long" rot="R90"/>
-<text x="-4.9213" y="2.0638" size="0.254" layer="100">PaJa</text>
-<text x="-4.9212" y="-3.0163" size="1.4224" layer="25">&gt;Name</text>
-<text x="-4.9212" y="-4.9212" size="1.4224" layer="27">&gt;Value</text>
-<rectangle x1="-4.1275" y1="-0.3175" x2="-3.4925" y2="0.3175" layer="51"/>
-<rectangle x1="-1.5875" y1="-0.3175" x2="-0.9525" y2="0.3175" layer="51"/>
-<rectangle x1="0.9525" y1="-0.3175" x2="1.5875" y2="0.3175" layer="51"/>
-<rectangle x1="3.4925" y1="-0.3175" x2="4.1275" y2="0.3175" layer="51"/>
-</package>
-<package name="PSH02-04W">
-<wire x1="-5.08" y1="5.08" x2="-3.81" y2="5.08" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="5.08" x2="-5.08" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="1.905" x2="-4.445" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-3.175" y1="1.905" x2="-1.905" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="5.08" x2="-3.81" y2="13.0175" width="0.127" layer="21"/>
-<wire x1="-4.445" y1="1.905" x2="-4.445" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-4.445" y1="2.54" x2="-3.175" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-3.175" y1="2.54" x2="-3.175" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-1.905" y1="1.905" x2="-1.905" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-1.905" y1="2.54" x2="-0.635" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="2.54" x2="-0.635" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="5.3975" x2="-3.81" y2="12.7" width="0.6096" layer="51"/>
-<wire x1="-1.27" y1="12.7" x2="-1.27" y2="5.3975" width="0.6096" layer="51"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="2.2225" width="0.6096" layer="51"/>
-<wire x1="-3.81" y1="2.2225" x2="-3.81" y2="0" width="0.6096" layer="51"/>
-<wire x1="-3.81" y1="5.08" x2="3.81" y2="5.08" width="0.127" layer="21"/>
-<wire x1="3.81" y1="5.08" x2="5.08" y2="5.08" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="1.905" x2="0.635" y2="1.905" width="0.127" layer="21"/>
-<wire x1="1.905" y1="1.905" x2="3.175" y2="1.905" width="0.127" layer="21"/>
-<wire x1="4.445" y1="1.905" x2="5.08" y2="1.905" width="0.127" layer="21"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="13.0175" x2="3.81" y2="13.0175" width="0.127" layer="21"/>
-<wire x1="3.81" y1="13.0175" x2="3.81" y2="5.08" width="0.127" layer="21"/>
-<wire x1="0.635" y1="1.905" x2="0.635" y2="2.54" width="0.127" layer="21"/>
-<wire x1="0.635" y1="2.54" x2="1.905" y2="2.54" width="0.127" layer="21"/>
-<wire x1="1.905" y1="2.54" x2="1.905" y2="1.905" width="0.127" layer="21"/>
-<wire x1="3.175" y1="1.905" x2="3.175" y2="2.54" width="0.127" layer="21"/>
-<wire x1="3.175" y1="2.54" x2="4.445" y2="2.54" width="0.127" layer="21"/>
-<wire x1="4.445" y1="2.54" x2="4.445" y2="1.905" width="0.127" layer="21"/>
-<wire x1="1.27" y1="5.3975" x2="1.27" y2="12.7" width="0.6096" layer="51"/>
-<wire x1="3.81" y1="12.7" x2="3.81" y2="5.3975" width="0.6096" layer="51"/>
-<wire x1="3.81" y1="0" x2="3.81" y2="2.2225" width="0.6096" layer="51"/>
-<wire x1="1.27" y1="2.2225" x2="1.27" y2="0" width="0.6096" layer="51"/>
-<circle x="-3.81" y="0" radius="0.5724" width="0.127" layer="102"/>
-<circle x="-1.27" y="0" radius="0.5723" width="0.127" layer="102"/>
-<circle x="1.27" y="0" radius="0.5724" width="0.127" layer="102"/>
-<circle x="3.81" y="0" radius="0.5723" width="0.127" layer="102"/>
-<pad name="1" x="-3.81" y="0" drill="1.016" diameter="1.4224" shape="long" rot="R90"/>
-<pad name="2" x="-1.27" y="0" drill="1.016" diameter="1.4224" shape="long" rot="R90"/>
-<pad name="3" x="1.27" y="0" drill="1.016" diameter="1.4224" shape="long" rot="R90"/>
-<pad name="4" x="3.81" y="0" drill="1.016" diameter="1.4224" shape="long" rot="R90"/>
-<text x="-3.0163" y="2.0638" size="0.254" layer="100">PaJa</text>
-<text x="-4.445" y="3.175" size="1.4224" layer="25">&gt;Name</text>
-<text x="-1.905" y="5.3975" size="1.4224" layer="27" rot="R90">&gt;Value</text>
-<rectangle x1="-1.5875" y1="0" x2="-0.9525" y2="2.54" layer="51"/>
-<rectangle x1="-4.1275" y1="0" x2="-3.4925" y2="2.54" layer="51"/>
-<rectangle x1="-4.1275" y1="5.08" x2="-3.4925" y2="12.7" layer="51"/>
-<rectangle x1="-1.5875" y1="5.08" x2="-0.9525" y2="12.7" layer="51"/>
-<rectangle x1="3.4925" y1="0" x2="4.1275" y2="2.54" layer="51"/>
-<rectangle x1="0.9525" y1="0" x2="1.5875" y2="2.54" layer="51"/>
-<rectangle x1="0.9525" y1="5.08" x2="1.5875" y2="12.7" layer="51"/>
-<rectangle x1="3.4925" y1="5.08" x2="4.1275" y2="12.7" layer="51"/>
-</package>
 <package name="PSH02-06P">
 <wire x1="-7.62" y1="2.54" x2="-6.35" y2="2.54" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="2.54" x2="-7.62" y2="-3.175" width="0.127" layer="21"/>
@@ -2151,23 +2071,6 @@ paja@paja-trb.cz
 <pin name="8" x="2.54" y="-2.54" visible="off" length="point" direction="pas" swaplevel="2" rot="R90"/>
 <pin name="9" x="7.62" y="-2.54" visible="off" length="point" direction="pas" swaplevel="2" rot="R90"/>
 </symbol>
-<symbol name="S1G4">
-<wire x1="2.54" y1="3.81" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="5.08" y1="3.81" x2="5.08" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="-3.81" y1="1.27" x2="-3.81" y2="5.08" width="0.254" layer="94" style="shortdash"/>
-<wire x1="0" y1="3.81" x2="0" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="-2.54" y1="3.81" x2="-2.54" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="6.35" y1="5.08" x2="-3.81" y2="5.08" width="0.254" layer="94" style="shortdash"/>
-<wire x1="-3.81" y1="1.27" x2="6.35" y2="1.27" width="0.254" layer="94" style="shortdash"/>
-<wire x1="6.35" y1="5.08" x2="6.35" y2="1.27" width="0.254" layer="94" style="shortdash"/>
-<text x="6.0325" y="1.5875" size="0.254" layer="100" rot="R90">PaJa</text>
-<text x="8.0962" y="0.7937" size="1.4224" layer="96" rot="R90">&gt;VALUE</text>
-<text x="-4.445" y="1.1112" size="1.4224" layer="95" rot="R90">&gt;Part</text>
-<pin name="1" x="-2.54" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R90"/>
-<pin name="2" x="0" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R90"/>
-<pin name="3" x="2.54" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R90"/>
-<pin name="4" x="5.08" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
 <symbol name="AVR_PROG_SPI">
 <pin name="MOSI" x="-7.62" y="-5.08" length="middle" rot="R90"/>
 <pin name="MISO" x="-5.08" y="-5.08" length="middle" rot="R90"/>
@@ -2228,36 +2131,6 @@ paja@paja-trb.cz
 <connect gate="CAN" pin="7" pad="7"/>
 <connect gate="CAN" pin="8" pad="8"/>
 <connect gate="CAN" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="PSH02-04" prefix="K" uservalue="yes">
-<description>&lt;B&gt;Konektory se zamkem&lt;/B&gt; - vidlice - 4pin</description>
-<gates>
-<gate name="KON" symbol="S1G4" x="0" y="-2.54" swaplevel="2"/>
-</gates>
-<devices>
-<device name="P" package="PSH02-04P">
-<connects>
-<connect gate="KON" pin="1" pad="1"/>
-<connect gate="KON" pin="2" pad="2"/>
-<connect gate="KON" pin="3" pad="3"/>
-<connect gate="KON" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="W" package="PSH02-04W">
-<connects>
-<connect gate="KON" pin="1" pad="1"/>
-<connect gate="KON" pin="2" pad="2"/>
-<connect gate="KON" pin="3" pad="3"/>
-<connect gate="KON" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2500,8 +2373,6 @@ Source: MBRS340T3-D.pdf</description>
 <part name="IO2" library="#PaJa_31" deviceset="LF_C" device="DT" value="LF50CDT"/>
 <part name="C5" library="#PaJa_31" deviceset="C-KER" device="_1206" value="10uF"/>
 <part name="C6" library="#PaJa_31" deviceset="C-KER" device="_1206" value="100n"/>
-<part name="K1" library="#PaJa_konektory" deviceset="PSH02-04" device="W"/>
-<part name="K2" library="#PaJa_konektory" deviceset="PSH02-04" device="W"/>
 <part name="U$1" library="#PaJa_konektory" deviceset="AVR_PROG_SPI" device=""/>
 <part name="Q2" library="transistor-power" deviceset="N-HEXFET_?-*" device="SOT323" technology="IRLL014N"/>
 <part name="R4" library="#PaJa_31" deviceset="R" device="_1206" value="10k"/>
@@ -2514,6 +2385,7 @@ Source: MBRS340T3-D.pdf</description>
 <text x="127" y="12.7" size="2.54" layer="94">Ovládání ofuku pres
 RS485 -&gt; 5TTL</text>
 <text x="246.38" y="5.08" size="2.54" layer="94">00</text>
+<text x="170.18" y="86.36" size="1.778" layer="97">Spatny ISP!!!!! </text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -2540,8 +2412,6 @@ RS485 -&gt; 5TTL</text>
 <instance part="IO2" gate="IO" x="152.4" y="167.64"/>
 <instance part="C5" gate="C" x="165.1" y="162.56" rot="R90"/>
 <instance part="C6" gate="C" x="139.7" y="162.56" rot="R90"/>
-<instance part="K1" gate="KON" x="121.92" y="134.62" rot="R270"/>
-<instance part="K2" gate="KON" x="121.92" y="101.6" rot="R270"/>
 <instance part="U$1" gate="G$1" x="182.88" y="63.5" rot="R270"/>
 <instance part="Q2" gate="G$1" x="170.18" y="129.54"/>
 <instance part="R4" gate="R" x="162.56" y="119.38" rot="R90"/>

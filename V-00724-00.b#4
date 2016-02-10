@@ -51,10 +51,10 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="15" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -144,7 +144,6 @@
 <text x="22.5" y="44" size="1.778" layer="47">49.00</text>
 <text x="65" y="15" size="1.778" layer="47" rot="R90">30.50</text>
 <text x="69" y="15.5" size="1.778" layer="47" rot="R90">37.5</text>
-<text x="1" y="-4" size="1.778" layer="47" font="vector">USB &lt;-&gt; RS485</text>
 <hole x="3.5" y="3.5" drill="7"/>
 <hole x="52.5" y="34" drill="7"/>
 <text x="3.4" y="16.9" size="1.27" layer="1" font="vector" ratio="20">V-00724-00

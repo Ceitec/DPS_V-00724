@@ -2546,7 +2546,7 @@ RS485 -&gt; 5TTL</text>
 <instance part="Q2" gate="G$1" x="170.18" y="129.54"/>
 <instance part="R4" gate="R" x="162.56" y="119.38" rot="R90"/>
 <instance part="K3" gate="KON" x="213.36" y="147.32" rot="R270"/>
-<instance part="REL1" gate="CIVKA" x="172.72" y="147.32"/>
+<instance part="REL1" gate="CIVKA" x="172.72" y="144.78"/>
 <instance part="REL1" gate="SPIN" x="198.12" y="147.32"/>
 </instances>
 <busses>
@@ -2576,12 +2576,22 @@ RS485 -&gt; 5TTL</text>
 <wire x1="78.74" y1="40.64" x2="96.52" y2="40.64" width="0.1524" layer="91"/>
 <label x="96.52" y="40.64" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
+<segment>
+<pinref part="CAN1" gate="CAN" pin="6"/>
+<wire x1="210.82" y1="63.5" x2="210.82" y2="55.88" width="0.1524" layer="91"/>
+<label x="210.82" y="55.88" size="1.016" layer="95" font="vector" ratio="10" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="BUS_B" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="A"/>
 <wire x1="78.74" y1="35.56" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
 <label x="96.52" y="35.56" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CAN1" gate="CAN" pin="8"/>
+<wire x1="220.98" y1="63.5" x2="220.98" y2="55.88" width="0.1524" layer="91"/>
+<label x="220.98" y="55.88" size="1.016" layer="95" font="vector" ratio="10" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="RS485_RX" class="0">
@@ -2650,8 +2660,13 @@ RS485 -&gt; 5TTL</text>
 </segment>
 <segment>
 <pinref part="REL1" gate="CIVKA" pin="C+"/>
-<wire x1="172.72" y1="152.4" x2="172.72" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="149.86" x2="172.72" y2="154.94" width="0.1524" layer="91"/>
 <label x="172.72" y="154.94" size="1.016" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CAN1" gate="CAN" pin="4"/>
+<wire x1="223.52" y1="68.58" x2="223.52" y2="76.2" width="0.1524" layer="91"/>
+<label x="223.52" y="76.2" size="1.016" layer="95" font="vector" ratio="10" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -2732,6 +2747,16 @@ RS485 -&gt; 5TTL</text>
 <wire x1="172.72" y1="111.76" x2="172.72" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="111.76" x2="172.72" y2="106.68" width="0.1524" layer="91"/>
 <label x="172.72" y="106.68" size="1.016" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CAN1" gate="CAN" pin="5"/>
+<wire x1="228.6" y1="68.58" x2="228.6" y2="76.2" width="0.1524" layer="91"/>
+<label x="228.6" y="76.2" size="1.016" layer="95" font="vector" ratio="10" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CAN1" gate="CAN" pin="2"/>
+<wire x1="213.36" y1="68.58" x2="213.36" y2="76.2" width="0.1524" layer="91"/>
+<label x="213.36" y="76.2" size="1.016" layer="95" font="vector" ratio="10" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -2817,58 +2842,25 @@ RS485 -&gt; 5TTL</text>
 <junction x="43.18" y="83.82"/>
 </segment>
 </net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="CAN1" gate="CAN" pin="1"/>
-<wire x1="208.28" y1="68.58" x2="208.28" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="CAN1" gate="CAN" pin="2"/>
-<wire x1="213.36" y1="68.58" x2="213.36" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="CAN1" gate="CAN" pin="3"/>
 <wire x1="218.44" y1="68.58" x2="218.44" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="CAN1" gate="CAN" pin="4"/>
-<wire x1="223.52" y1="68.58" x2="223.52" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="CAN1" gate="CAN" pin="5"/>
-<wire x1="228.6" y1="68.58" x2="228.6" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="CAN1" gate="CAN" pin="6"/>
-<wire x1="210.82" y1="63.5" x2="210.82" y2="55.88" width="0.1524" layer="91"/>
+<label x="218.44" y="76.2" size="1.016" layer="95" font="vector" ratio="10" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="CAN1" gate="CAN" pin="7"/>
 <wire x1="215.9" y1="63.5" x2="215.9" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="CAN1" gate="CAN" pin="8"/>
-<wire x1="220.98" y1="63.5" x2="220.98" y2="55.88" width="0.1524" layer="91"/>
+<label x="215.9" y="55.88" size="1.016" layer="95" font="vector" ratio="10" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="CAN1" gate="CAN" pin="9"/>
 <wire x1="226.06" y1="63.5" x2="226.06" y2="55.88" width="0.1524" layer="91"/>
+<label x="226.06" y="55.88" size="1.016" layer="95" font="vector" ratio="10" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="+24V_OUT" class="0">
@@ -2893,6 +2885,11 @@ RS485 -&gt; 5TTL</text>
 <wire x1="193.04" y1="147.32" x2="187.96" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="147.32" x2="187.96" y2="152.4" width="0.1524" layer="91"/>
 <label x="187.96" y="152.4" size="1.016" layer="95" font="vector" ratio="10" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CAN1" gate="CAN" pin="1"/>
+<wire x1="208.28" y1="68.58" x2="208.28" y2="76.2" width="0.1524" layer="91"/>
+<label x="208.28" y="76.2" size="1.016" layer="95" font="vector" ratio="10" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -3001,7 +2998,7 @@ RS485 -&gt; 5TTL</text>
 <net name="N$24" class="0">
 <segment>
 <pinref part="Q2" gate="G$1" pin="D"/>
-<wire x1="172.72" y1="134.62" x2="172.72" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="134.62" x2="172.72" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="REL1" gate="CIVKA" pin="C-"/>
 </segment>
 </net>

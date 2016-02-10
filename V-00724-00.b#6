@@ -147,6 +147,9 @@
 <text x="1" y="-4" size="1.778" layer="47" font="vector">USB &lt;-&gt; RS485</text>
 <hole x="3.5" y="3.5" drill="7"/>
 <hole x="52.5" y="34" drill="7"/>
+<text x="3.4" y="16.9" size="1.27" layer="1" font="vector" ratio="20">V-00724-00
+Author: LN
+11.12.2015</text>
 </plain>
 <libraries>
 <library name="atmel">
@@ -1189,4 +1192,10 @@ Určeno pro kreslení a export výrobních dat</description>
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
